@@ -1,0 +1,24 @@
+{
+  "name": "simplify-it.net",
+  "version": "1.0.0",
+  "description": "hello, world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplify-web/www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplify-web/www/issues"
+  },
+  "homepage": "https://github.com/simplify-web/www#readme",
+  "dependencies": {
+    "vuepress": "^1.0.0"
+  }
+}
