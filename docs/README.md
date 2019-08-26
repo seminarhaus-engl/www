@@ -10,6 +10,6 @@ features:
   details: Easily upload images to your repo with an uploader 
 - title: Powerful Deployments
   details: Leverage the power of netlify and VuePress to deploy statically 
-footer: MIT Licensed | Copyright © 2018-present Andre Liem (www.vuejsradar.com) 
+footer: MIT Licensed | Copyright © 2020-present Andrej
 title: FRONT PAGE
 ---
