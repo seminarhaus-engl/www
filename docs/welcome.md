@@ -12,4 +12,5 @@ und code geht auchsuper
 * punkt 
 * nach punkt
 * nach punkt
-*
+
+![anna is back](/docs/.vuepress/dist/anna.jpg "schönes bild")
