@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Site Name',
   description: 'your description',
+  theme: "meteorlxy",
   themeConfig: {
     docsDir: 'docs',
     search: false,
