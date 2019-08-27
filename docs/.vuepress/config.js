@@ -16,15 +16,15 @@ module.exports = {
     nav: [
       {
         text: 'Über Uns',
-        link: '/ueber-uns/index.html',
+        link: '/ueber-uns',
       },
       {
         text: 'Aktuelles',
-        link: '/aktuelles/index.html',
+        link: '/aktuelles',
       },
       {
         text: 'Bilder',
-        link: '/bilder/index.html',
+        link: '/bilder',
       }
 
     ]
