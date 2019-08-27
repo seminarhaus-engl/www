@@ -1,19 +1,32 @@
 module.exports = {
-  title: 'Netlify CMS + VuePress',
-  description: 'Netlify + VuePress',
+  title: 'Site Name',
+  description: 'your description',
   themeConfig: {
     docsDir: 'docs',
-    repo: 'simplify-web/www',
+    search: false,
+    searchMaxSuggestions: 10,
+    //repo: 'simplify-web/www', #creates link to github
+    /*
     sidebar: [
       '/',
       '/welcome',
       '/test'
     ],
+    */
     nav: [
       {
-        text: 'Admin',
-        link: '/admin',
+        text: 'Über Uns',
+        link: '/ueber-uns/index.html',
+      },
+      {
+        text: 'Aktuelles',
+        link: '/aktuelles/index.html',
+      },
+      {
+        text: 'Bilder',
+        link: '/bilder/index.html',
       }
+
     ]
   }
 }
