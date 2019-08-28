@@ -12,7 +12,7 @@ module.exports = {
       email: 'andrej@byom.de',
       location: 'Linz, Österreich',
       //organization: 'Tencent',
-      avatar: '/images/avatar.png',
+      avatar: '/uploads/avatar.png',
     },
     //repo: 'simplify-web/www', #creates link to github
     /*
