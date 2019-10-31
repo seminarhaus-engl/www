@@ -5,7 +5,7 @@
 
     <!-- .main-div is the block with white background -->
     <div class="main-div">
-      This is a custom layout. it works
+      This is a my homepage layout.
     </div>
 
     <div class="main-div">

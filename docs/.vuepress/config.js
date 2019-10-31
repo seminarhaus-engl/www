@@ -14,6 +14,14 @@ module.exports = {
       //organization: 'Tencent',
       avatar: '/uploads/avatar.png',
     },
+    chainWebpack: (config, isServer) => {
+      config.module
+      .rule('coffee')
+      .test(/\.coffee$/)
+      .use('coffee-loader')
+        .loader('coffee-loader')
+        .end()
+    },
     //repo: 'simplify-web/www', #creates link to github
     /*
     sidebar: [
