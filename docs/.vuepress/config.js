@@ -14,6 +14,7 @@ module.exports = {
       //organization: 'Tencent',
       avatar: '/uploads/avatar.png',
     },
+    // not working
     chainWebpack: (config, isServer) => {
       config.module
       .rule('coffee')
