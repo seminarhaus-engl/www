@@ -1,5 +1,6 @@
 ---
 title: Gallerie
+header-image: /uploads/banner_bilder.jpg
 ---
 ## Bilder
 

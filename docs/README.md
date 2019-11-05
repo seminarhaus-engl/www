@@ -1,6 +1,5 @@
 ---
 layout: HomeLayout
-title: home page
+title: home page titel
 ---
-
-some text here
+nothing seem

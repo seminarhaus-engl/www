@@ -14,6 +14,9 @@ module.exports = {
     docsDir: 'docs',
     search: false,
     searchMaxSuggestions: 10,
+    //background:{
+    //  useGeo: false
+    //},
     personalInfo: {
       nickname: 'andrej',
       description: 'There is no way to happiness<br/>Happiness is the way.',
@@ -37,6 +40,10 @@ module.exports = {
         link: '/ueber-uns',
       },
       {
+        text: 'Seminare',
+        link: '/seminare',
+      },
+      {
         text: 'Aktuelles',
         link: '/aktuelles',
       },
@@ -47,3 +54,6 @@ module.exports = {
     ]
   }
 }
+
+//image sizes:
+// leader board: 728 x 90 pixels
