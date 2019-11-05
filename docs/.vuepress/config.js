@@ -1,6 +1,14 @@
 module.exports = {
   title: 'Site Name',
   description: 'your description',
+  chainWebpack: (config) => {
+    config.module
+    .rule('coffees')
+    .test(/\.coffee$/)
+    .use('coffee-loader')
+      .loader('coffee-loader')
+      .end()
+  },
   theme: "meteorlxy",
   themeConfig: {
     docsDir: 'docs',
@@ -14,15 +22,7 @@ module.exports = {
       //organization: 'Tencent',
       avatar: '/uploads/avatar.png',
     },
-    // not working
-    chainWebpack: (config, isServer) => {
-      config.module
-      .rule('coffee')
-      .test(/\.coffee$/)
-      .use('coffee-loader')
-        .loader('coffee-loader')
-        .end()
-    },
+
     //repo: 'simplify-web/www', #creates link to github
     /*
     sidebar: [

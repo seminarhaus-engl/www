@@ -4,12 +4,15 @@
     <Content />
   </div>
 </template>
-<script>
-  export default {
+
+<script lang="coffee">
+
+  export default({
     computed: {
-      title() {
-        return this.$page.title
-      }
+      title: -> return this.$page.title
     }
-  }
+  
+  })
+
+  console.log "ssdafasdf"
 </script>
