@@ -1,18 +1,19 @@
-<template>
-  <div class="page">
-    <h1 v-html="title"></h1>
-    <Content />
-  </div>
+<template lang="pug">
+
+  .page
+    h1(v-html='title')
+    content
+
 </template>
 
 <script lang="coffee">
 
   export default({
+
     computed: {
       title: -> return this.$page.title
     }
   
   })
 
-  console.log "ssdafasdf"
 </script>

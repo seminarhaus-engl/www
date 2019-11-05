@@ -1,18 +1,15 @@
 <!-- .vuepress/components/CustomLayout.vue -->
 
-<template>
-  <div class="home-layout">
+<template class="pug">
 
-    <!-- .main-div is the block with white background -->
-    <div class="main-div">
-      This is a my homepage layout.
-    </div>
+  .home-layout
+    // .main-div is the block with white background
+    .main-div
+      | This is a my homepage layout.
+    .main-div
+      // <Content /> is to show the rendered markdown content of this page
+      content.content
 
-    <div class="main-div">
-      <!-- <Content /> is to show the rendered markdown content of this page -->
-      <Content class="content" />
-    </div>
-  </div>
 </template>
 
 <script>

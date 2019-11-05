@@ -15,18 +15,15 @@
 
 </template>
 
-<script>
-export default {
-  name: 'SeminareLayout',
-  computed: {
-      title() {
-        return this.$page.title
-      },
-      seminare() {
-        console.log(this.$site.pages)
-        return this.$site.pages
-          .filter(x => x.path.startsWith("/seminare/"))
-      }
-    }
-}
+<script lang="coffee">
+
+  export default({
+    name: 'SeminareLayout'
+
+    computed:
+        title: -> @$page.title
+        seminare: -> @$site.pages.filter((x) -> x.path.startsWith("/seminare/"))
+
+  })
+
 </script>
