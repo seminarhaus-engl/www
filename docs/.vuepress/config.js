@@ -15,7 +15,7 @@ module.exports = {
       // Allow theme to add Home page (url: /)
       home: false,
       // Allow theme to add Posts page (url: /posts/)
-      posts: true,
+      posts: false,
     },
     docsDir: 'docs',
     search: false,
@@ -30,6 +30,12 @@ module.exports = {
       location: 'Linz, Österreich',
       //organization: 'Tencent',
       avatar: '/uploads/avatar.png',
+    },
+    header:{
+      // this is used for seminare, to show it also on the detail page of each seminar
+      background:{
+        url: "/uploads/banner_seminare.jpg"
+      },
     },
 
     //repo: 'simplify-web/www', #creates link to github

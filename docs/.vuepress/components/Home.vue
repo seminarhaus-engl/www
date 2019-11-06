@@ -27,7 +27,7 @@ export default({
 <style lang="stylus">
 
 body 
-  font-family: "Helvetica Neue", Roboto
+  font-family: "Roboto", sans-serif
   //background-size: cover
   //background-repeat: no-repeat
   //background-position: center center
