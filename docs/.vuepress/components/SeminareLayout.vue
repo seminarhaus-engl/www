@@ -13,6 +13,7 @@
           h3.seminar-title {{ seminar.title }}
           p.seminar-excerpt.content(v-html="seminar.frontmatter.descriptionShort || ''")
           p {{seminar.frontmatter.unterkunft}}
+          p {{seminar.frontmatter.dozentenbeschreibung}}
 
 
 
