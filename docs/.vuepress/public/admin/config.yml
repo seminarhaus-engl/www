@@ -25,7 +25,7 @@ collections:
       - {label: "Beschreibung Kurz", name: "descriptionShort", widget: "markdown"}
       - {label: "Beschreibung Lang", name: "description", widget: "markdown"}
       - {label: "Honorar", name: "honorar", widget: "string"}
-      - {label: "Kursgebühr", name: "kursbebuehr", widget: "string"}
+      - {label: "Kursgebühr", name: "kursgebuehr", widget: "string"}
       - {label: "Unterkunft", name: "unterkunft", widget: "string"}
       - {label: "DozentenInnenbeschreibung", name: "dozentenbeschreibung", widget: "markdown"}
       - {label: "Website", name: "website", widget: "string"}
