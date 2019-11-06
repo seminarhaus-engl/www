@@ -11,7 +11,8 @@
       .seminare-list-item(v-for='seminar in seminare')
         router-link(:to='seminar.path', class="seminar-link")
           h3.seminar-title {{ seminar.title }}
-          p.seminar-excerpt.content(v-html="seminar.frontmatter.description1 || ''")
+          p.seminar-excerpt.content(v-html="seminar.frontmatter.descriptionShort || ''")
+          p {{seminar.frontmatter.unterkunft}}
 
 
 
