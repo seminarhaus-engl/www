@@ -1,6 +1,6 @@
 ---
 layout: Home
-title: home page titel
-header-image: /uploads/bg_home.jpg
+title: Willkommen
+header-image: /uploads/banner_home.jpg
 header-title: false
 ---

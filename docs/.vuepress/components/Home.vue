@@ -2,6 +2,7 @@
 
 .home
   h1 {{ title }}
+  p hier kommt der content
 
 
 
@@ -12,22 +13,28 @@
 export default({
   
   name: 'Home'
-  #data: -> @$page.frontmatter
   
   computed:
-    title: ->
-      console.log @$page
-      return this.$page.title
+    title: -> @$page.title
   created: ->
-    console.log "console.log home", @$page
-
+    console.log @$page
+    console.log @$page.frontmatter
 
 })
 
 </script>
 
 <style lang="stylus">
+
 body 
   font-family: "Helvetica Neue", Roboto
+  //background-size: cover
+  //background-repeat: no-repeat
+  //background-position: center center
+  //background-attachment: scroll
+  //background-image: url("/uploads/bg_home.jpg")
+
+//.banner
+  //display: none
 
 </style>
