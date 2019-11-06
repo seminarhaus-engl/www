@@ -1,7 +1,7 @@
 ---
 layout: SeminarLayout
 title: beispiel
-description1: kljkljkjl
-description2: kljklklj
+descriptionShoirt: kljkljkjl
+description: kljklklj
 ---
 
