@@ -11,6 +11,12 @@ module.exports = {
   },
   theme: "meteorlxy",
   themeConfig: {
+    defaultPages: {
+      // Allow theme to add Home page (url: /)
+      home: false,
+      // Allow theme to add Posts page (url: /posts/)
+      posts: true,
+    },
     docsDir: 'docs',
     search: false,
     searchMaxSuggestions: 10,
