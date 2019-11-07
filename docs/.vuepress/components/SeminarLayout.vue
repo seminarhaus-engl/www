@@ -11,7 +11,7 @@
   export default({
 
     computed: {
-      title: -> return this.$page.title
+      title: -> @$page.title
     }
   
   })
