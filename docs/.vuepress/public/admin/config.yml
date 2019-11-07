@@ -6,8 +6,9 @@ media_folder: "docs/.vuepress/public/uploads"
 public_folder: "/uploads" # defaults to media_folder
 collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
-    label: "Doc" # Used in the UI
+    label: "Seiten" # Used in the UI
     folder: "docs" # The path to the folder where the documents are stored
+    filter: {field: "header-title", value: true} # this is a HACK use are more usefull one in the future
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -15,7 +16,6 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Header Bild", name: "header-image", widget: "image"}
       - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
-      - {label: "Layout", name: "layout", widget: "string", required: false}
   - name: "seminare" # Used in routes, e.g., /admin/collections/blog
     label: "Seminare" # Used in the UI
     folder: "docs/seminare" # The path to the folder where the documents are stored
@@ -34,3 +34,16 @@ collections:
       - {label: "Website", name: "website", widget: "string"}
       - {label: "Website Url", name: "websiteUrl", widget: "string"}
       - {label: "Lehrende", name: "performers", widget: "string"}
+  
+  - label: "Spezielle Seiten"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "docs/index.md"
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Header Bild", name: "header-image", widget: "image"}
+          - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
+          - {label: "Layout", name: "layout", widget: "string", required: false}

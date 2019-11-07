@@ -1,10 +1,9 @@
 <template lang="pug">
 
-.home
+.page
   h1 {{ title }}
   content
-
-
+  p das geht aber
 
 </template>
 
