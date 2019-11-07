@@ -9,7 +9,7 @@
     p <strong>Kursbebühr:</strong> {{fm.kursgebuehr}}
     p <strong>Unterkunft und Verpflegung:</strong> {{fm.unterkunft}}
     p <strong>Leitung:</strong> {{fm.performers}}
-    p {{fm.dozentenbeschreibung}}
+    p(v-html="fm.dozentenbeschreibung")
     a(:href="fm.websiteUrl", target="_blank") <strong>Website:</strong> {{fm.website}}
 
 
