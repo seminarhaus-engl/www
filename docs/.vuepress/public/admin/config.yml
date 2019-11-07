@@ -12,8 +12,10 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Header Bild", name: "header-image", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Header Bild", name: "header-image", widget: "image"}
+      - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
+      - {label: "Layout", name: "layout", widget: "string"}
   - name: "seminare" # Used in routes, e.g., /admin/collections/blog
     label: "Seminare" # Used in the UI
     folder: "docs/seminare" # The path to the folder where the documents are stored
