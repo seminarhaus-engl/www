@@ -12,7 +12,6 @@
     p(v-html="fm.dozentenbeschreibung")
     a(:href="fm.websiteUrl", target="_blank") <strong>Website:</strong> {{fm.website}}
 
-
 </template>
 
 <script lang="coffee">
@@ -20,9 +19,6 @@
   export default({
 
     computed: {
-      title: ->
-        console.log "title ran"
-        @$page.title
       fm: ->
         console.log new Date(), "fm ran"
         @$page.frontmatter
