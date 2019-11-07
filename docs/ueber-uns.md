@@ -1,9 +1,8 @@
 ---
 title: Über Uns
 header-image: /uploads/banner_ueber-uns.jpg
-
 ---
-## wird sind toll
+## wird sind gut
 
 ```
 und code geht auch super
