@@ -1,7 +1,7 @@
 <template lang="pug">
 
   .page
-    h2(v-html='fm.title')
+    h2 {{fm.title}}
     p.seminar-info-list {{fm.startDate}} - {{fm.endDate}} 
     p(v-html='fm.descriptionShort')
     p(v-html='fm.description')
@@ -20,7 +20,12 @@
   export default({
 
     computed: {
-      fm: -> @$page.frontmatter
+      title: ->
+        console.log "title ran"
+        @$page.title
+      fm: ->
+        console.log new Date(), "fm ran"
+        @$page.frontmatter
     }
   
   })

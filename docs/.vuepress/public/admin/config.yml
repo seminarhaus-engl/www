@@ -34,6 +34,7 @@ collections:
       - {label: "Website", name: "website", widget: "string"}
       - {label: "Website Url", name: "websiteUrl", widget: "string"}
       - {label: "Lehrende", name: "performers", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "string", default: "SeminarLayout"}
   
   - label: "Spezielle Seiten"
     name: "pages"
