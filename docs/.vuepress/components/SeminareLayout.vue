@@ -15,8 +15,6 @@
           p.seminar-excerpt.content(v-html="seminar.frontmatter.descriptionShort || ''")
           p Leitung: {{seminar.frontmatter.performers}}
 
-
-
 </template>
 
 <script lang="coffee">

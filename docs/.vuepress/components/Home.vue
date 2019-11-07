@@ -25,8 +25,6 @@ export default({
 
 <style lang="stylus">
 
-import('bulma/css/bulma.css')
-
 body 
   font-family: "Roboto", sans-serif
   //background-size: cover
