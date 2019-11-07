@@ -10,10 +10,10 @@
     .seminare-items
       .seminare-list-item(v-for='seminar in seminare')
         router-link(:to='seminar.path', class="seminar-link")
-          h4.seminar-title {{ seminar.title }}
-          h5 {{seminar.frontmatter.startDate}} - {{seminar.frontmatter.endDate}} 
-          h5.seminar-excerpt.content(v-html="seminar.frontmatter.descriptionShort || ''")
-          h5 Leitung: {{seminar.frontmatter.performers}}
+          h3.seminar-title {{ seminar.title }}
+          p.seminar-info-list {{seminar.frontmatter.startDate}} - {{seminar.frontmatter.endDate}} 
+          p.seminar-excerpt.content(v-html="seminar.frontmatter.descriptionShort || ''")
+          p Leitung: {{seminar.frontmatter.performers}}
 
 
 
@@ -35,7 +35,7 @@
 </script>
 
 <style lang="stylus">
-
+  
   @require '~@theme/styles/variables'
   .seminare-list-item
     padding 0 0.5rem

@@ -8,6 +8,7 @@
     "vuepress-theme-meteorlxy": "^1.6.0"
   },
   "dependencies": {
+    "bulma": "^0.8.0",
     "coffee-loader": "^0.9.0",
     "coffeescript": "^2.4.1",
     "pug": "^2.0.4",
