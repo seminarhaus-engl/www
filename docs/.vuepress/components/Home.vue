@@ -2,7 +2,7 @@
 
 .home
   h1 {{ title }}
-  p hier kommt der content
+  content
 
 
 
