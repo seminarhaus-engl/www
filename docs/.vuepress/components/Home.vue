@@ -1,9 +1,8 @@
 <template lang="pug">
 
-.page
+.home
   h1 {{ title }}
-  content
-  p das geht aber
+  p {{ content }}
 
 </template>
 
@@ -14,10 +13,11 @@ export default({
   name: 'Home'
   
   computed:
-    title: -> @$page.title
-  created: ->
-    console.log @$page
-    console.log @$page.frontmatter
+    title:      -> @$page.frontmatter.title
+    content:    -> @$page.frontmatter.content
+
+  created: -> console.log @$page
+
 
 })
 
