@@ -21,9 +21,9 @@ dozentenbeschreibung: |-
   ein markdown: colon
 
   \#öaÖ
-website: webseiten
-websiteUrl: url dazu
-performers: ananda
+website: ''
+websiteUrl: ''
+performers: ''
 layout: SeminarLayout
 ---
 
