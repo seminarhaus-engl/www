@@ -22,19 +22,19 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Titel",        name: "title", widget: "string"}
       - {label: "Anfangsdatum", name: "startDate",  widget: "datetime", format: "DD.MM.YYYY", dateFormat: "DD.MM.YYYY", timeFormat: false, default: ""}
       - {label: "Endedatum",    name: "endDate",    widget: "datetime", format: "DD.MM.YYYY", dateFormat: "DD.MM.YYYY", timeFormat: false, default: ""}
-      - {label: "Beschreibung Kurz", name: "descriptionShort", widget: "markdown"}
-      - {label: "Beschreibung Lang", name: "description", widget: "markdown"}
-      - {label: "Honorar", name: "honorar", widget: "string"}
-      - {label: "Kursgebühr", name: "kursgebuehr", widget: "string"}
-      - {label: "Unterkunft", name: "unterkunft", widget: "string"}
-      - {label: "DozentenInnenbeschreibung", name: "dozentenbeschreibung", widget: "markdown"}
-      - {label: "Website", name: "website", widget: "string"}
-      - {label: "Website Url", name: "websiteUrl", widget: "string"}
-      - {label: "Lehrende", name: "performers", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "string", default: "SeminarLayout"}
+      - {label: "Beschreibung Kurz", required: false, name: "descriptionShort", widget: "markdown"}
+      - {label: "Beschreibung Lang", required: false, name: "description", widget: "markdown"}
+      - {label: "Honorar",           required: false, name: "honorar", widget: "string"}
+      - {label: "Kursgebühr",        required: false, name: "kursgebuehr", widget: "string"}
+      - {label: "Unterkunft",        required: false, name: "unterkunft", widget: "string"}
+      - {label: "DozentenInnenbeschreibung", , required: false, name: "dozentenbeschreibung", widget: "markdown"}
+      - {label: "Website",      required: false, name: "website", widget: "string"}
+      - {label: "Website Url",  required: false, name: "websiteUrl", widget: "string"}
+      - {label: "Lehrende",     required: false, name: "performers", widget: "string"}
+      - {label: "Layout",       required: false, name: "layout", widget: "string", default: "SeminarLayout"}
   
   - label: "Spezielle Seiten"
     name: "pages"
