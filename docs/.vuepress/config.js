@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Site Name',
+  title: '',
   description: 'your description',
   chainWebpack: (config) => {
     config.module
@@ -23,15 +23,17 @@ module.exports = {
     //background:{
     //  useGeo: false
     //},
+    showAside: false,
     personalInfo: {
-      nickname: 'andrej',
+      nickname: 'Barbara Wegmüller',
       description: 'There is no way to happiness<br/>Happiness is the way.',
-      email: 'andrej@byom.de',
-      location: 'Linz, Österreich',
+      email: 'barbara.wegmüller@byom.de',
+      location: 'Berlin, Deutschland',
       //organization: 'Tencent',
-      avatar: '/uploads/avatar.png',
+      avatar: '/uploads/person/barbara.wegmueller.jpg',
     },
     header:{
+      showTitle: false,
       // this is used for seminare, to show it also on the detail page of each seminar
       background:{
         url: "/uploads/banner_seminare.jpg"

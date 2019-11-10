@@ -16,7 +16,7 @@ honorar: 'ein markdown: colon#öaÖ'
 kursgebuehr: 'ein markdown: colon#öaÖ'
 unterkunft: 'ein markdown: colon#öaÖ'
 dozentenbeschreibung: |-
-  dozentinnnen
+  dozentinnnen sind hier
 
   ein markdown: colon
 
@@ -25,5 +25,6 @@ website: ''
 websiteUrl: ''
 performers: ''
 layout: SeminarLayout
+header-title: false
 ---
 

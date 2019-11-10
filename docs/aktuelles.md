@@ -1,9 +1,9 @@
 ---
-title: Das ist neu
+title: Aktuelles
 header-image: /uploads/banner_aktuelles.jpg
 header-title: true
 ---
-## Neues Futter
+## Neuigkeiten
 
 * Nicht zu vergessen
 * auch das
