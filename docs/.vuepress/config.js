@@ -39,7 +39,7 @@ module.exports = {
       },
     },
 
-    //repo: 'simplify-web/www', #creates link to github
+    //repo: 'seminarhaus-engl/www', #creates link to github
     /*
     sidebar: [
       '/',
