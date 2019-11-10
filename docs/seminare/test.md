@@ -3,7 +3,7 @@ title: test
 startDate: 10.11.2020
 endDate: 11.11.2020
 descriptionShort: |-
-  ein markdown: colon
+  ein **markdown**: colon
 
   \#öaÖ
 description: |-
