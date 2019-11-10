@@ -1,8 +1,9 @@
 ---
 title: Willkommen
+header-title: false
 content: neuer content
 header-image: /uploads/banner_home.jpg
-header-title: false
 layout: Home
+aside: false
 ---
 

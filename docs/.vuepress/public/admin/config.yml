@@ -16,6 +16,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Header Bild", name: "header-image", widget: "image"}
       - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
+      - {label: "Infobox", name: "aside", widget: "boolean", default: false}
   - name: "seminare" # Used in routes, e.g., /admin/collections/blog
     label: "Seminare" # Used in the UI
     folder: "docs/seminare" # The path to the folder where the documents are stored
@@ -34,7 +35,8 @@ collections:
       - {label: "Website",      required: false, name: "website", widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl", widget: "string"}
       - {label: "Lehrende",     required: false, name: "performers", widget: "string"}
-      - {label: "Layout",       required: false, name: "layout", widget: "string", default: "SeminarLayout"}
+      - {label: "Layout",       required: true, name: "layout", widget: "string", default: "SeminarLayout"}
+      - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
   
   - label: "Spezielle Seiten"
     name: "pages"
@@ -48,3 +50,4 @@ collections:
           - {label: "Header Bild", name: "header-image", widget: "image"}
           - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
           - {label: "Layout", name: "layout", widget: "string", required: false}
+          - {label: "Infobox", name: "aside", widget: "boolean", default: false}

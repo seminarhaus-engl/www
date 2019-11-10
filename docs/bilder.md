@@ -2,6 +2,7 @@
 title: Gallerie
 header-image: /uploads/banner_bilder.jpg
 header-title: true
+aside: false
 ---
 ## Bilder
 

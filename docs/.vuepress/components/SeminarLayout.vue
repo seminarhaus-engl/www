@@ -21,9 +21,7 @@
 
     computed: {
       # get frontmatter props into fm object
-      fm: ->
-        console.log this
-        @$page.frontmatter
+      fm: -> @$page.frontmatter
       
       descriptionShort:     -> marked(@fm.descriptionShort)
       description:          -> marked(@fm.description)
