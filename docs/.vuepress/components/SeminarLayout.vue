@@ -15,6 +15,8 @@
 </template>
 
 <script lang="coffee">
+  # todo: add white background to page
+
   marked = require("marked")
 
   export default({

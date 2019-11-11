@@ -43,6 +43,14 @@ module.exports = {
         url: "/uploads/banner_seminare.jpg"
       },
     },
+    footer: {
+      poweredBy: false,
+      poweredByTheme: false,
+      //custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | fax: 08728 412 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
+      custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
+   
+    },
+  
 
     //repo: 'seminarhaus-engl/www', #creates link to github
     /*
