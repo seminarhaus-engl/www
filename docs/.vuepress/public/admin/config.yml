@@ -44,18 +44,18 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Vorname Nachname", name: "name", widget: "string"}
+      - {label: "Vorname Nachname", name: "title", widget: "string"}
       - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
       - {label: "Website",      required: false, name: "website"    , widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
       - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
   - name: "link" # Used in routes, e.g., /admin/collections/blog
     label: "Links" # Used in the UI
-    folder: "docs/personen" # The path to the folder where the documents are stored
+    folder: "docs/links" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
       - {label: "Website",      required: false, name: "website"    , widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
