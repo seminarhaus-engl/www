@@ -31,11 +31,34 @@ collections:
       - {label: "Honorar",           required: false, name: "honorar", widget: "string"}
       - {label: "Kursgebühr",        required: false, name: "kursgebuehr", widget: "string"}
       - {label: "Unterkunft",        required: false, name: "unterkunft", widget: "string"}
-      - {label: "DozentenInnenbeschreibung", , required: false, name: "dozentenbeschreibung", widget: "markdown"}
+      - {label: "DozentenInnenbeschreibung", required: false, name: "dozentenbeschreibung", widget: "markdown"}
       - {label: "Website",      required: false, name: "website", widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl", widget: "string"}
       - {label: "Lehrende",     required: false, name: "performers", widget: "string"}
       - {label: "Layout",       required: true, name: "layout", widget: "string", default: "SeminarLayout"}
+      - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
+  
+  - name: "person" # Used in routes, e.g., /admin/collections/blog
+    label: "Personen" # Used in the UI
+    folder: "docs/personen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Vorname Nachname", name: "name", widget: "string"}
+      - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
+      - {label: "Website",      required: false, name: "website"    , widget: "string"}
+      - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
+      - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
+  - name: "link" # Used in routes, e.g., /admin/collections/blog
+    label: "Links" # Used in the UI
+    folder: "docs/personen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
+      - {label: "Website",      required: false, name: "website"    , widget: "string"}
+      - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
       - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
   
   - label: "Spezielle Seiten"
