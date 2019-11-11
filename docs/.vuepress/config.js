@@ -27,7 +27,7 @@ module.exports = {
       nickname: 'Barbara Wegmüller',
       description: 'There is no way to happiness<br/>Happiness is the way.',
       email: 'barbara.wegmüller@byom.de',
-      location: 'Berlin, Deutschland',
+      //location: 'Berlin, Deutschland',
       //organization: 'Tencent',
       avatar: '/uploads/person_barbara.wegmueller.jpg',
     },
