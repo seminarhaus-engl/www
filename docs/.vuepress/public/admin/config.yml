@@ -4,7 +4,11 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "docs/.vuepress/public/uploads"
 public_folder: "/uploads" # defaults to media_folder
-collections:
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+  collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
     label: "Seiten" # Used in the UI
     folder: "docs" # The path to the folder where the documents are stored
