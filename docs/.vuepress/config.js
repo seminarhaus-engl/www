@@ -23,6 +23,11 @@ module.exports = {
     //background:{
     //  useGeo: false
     //},
+    infoCard: {
+      headerBackground: {
+        url: "/uploads/banner_infobox.jpg"
+      }
+    },
     personalInfo: {
       nickname: 'Barbara Wegmüller',
       description: 'There is no way to happiness<br/>Happiness is the way.',
