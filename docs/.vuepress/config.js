@@ -40,7 +40,7 @@ module.exports = {
       showTitle: true,
       // this is used for seminare, to show it also on the detail page of each seminar
       background:{
-        url: "/uploads/banner_seminare.jpg"
+        url: "/uploads/banner_seminare.png"
       },
     },
     footer: {
@@ -70,12 +70,24 @@ module.exports = {
         link: '/seminare',
       },
       {
+        text: 'Anmeldeinfos',
+        link: '/anmeldeinfos',
+      },
+      {
+        text: 'Dana-Prinzip',
+        link: '/dana',
+      },
+      {
         text: 'Aktuelles',
         link: '/aktuelles',
       },
       {
         text: 'Bilder',
         link: '/bilder',
+      },
+      {
+        text: 'Links',
+        link: '/links',
       }
     ]
   }

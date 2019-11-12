@@ -27,13 +27,14 @@ export default({
 
 body 
   font-family: "Roboto", sans-serif
+
   //background-size: cover
   //background-repeat: no-repeat
   //background-position: center center
   //background-attachment: scroll
   //background-image: url("/uploads/bg_home.jpg")
 
-//.banner
-  //display: none
+.navbar-site-name
+  text-transform: uppercase
 
 </style>

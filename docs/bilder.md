@@ -1,6 +1,6 @@
 ---
 title: Gallerie
-header-image: /uploads/banner_bilder.jpg
+header-image: /uploads/banner_bilder.png
 header-title: true
 aside: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Kontakt/Bankverbindung/Impressum/Datenschutz
-header-image: /uploads/banner_ueber-uns.jpg
+header-image: /uploads/banner_ueber-uns.png
 header-title: true
 aside: false
 ---
