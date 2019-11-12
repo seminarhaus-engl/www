@@ -16,7 +16,7 @@ export default({
     title:      -> @$page.frontmatter.title
     content:    -> @$page.frontmatter.content
 
-  created: -> console.log @$page
+  #created: -> console.log @$page
 
 
 })

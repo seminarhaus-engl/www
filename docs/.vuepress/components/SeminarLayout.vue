@@ -29,7 +29,7 @@
       description:          -> marked(@fm.description)
       dozentenbeschreibung: -> marked(@fm.dozentenbeschreibung)
     }
-    created: -> console.log this
+    #created: ->
   
   })
 
