@@ -40,7 +40,7 @@ module.exports = {
       showTitle: true,
       // this is used for seminare, to show it also on the detail page of each seminar
       background:{
-        url: "/uploads/banner_seminare.png"
+        url: "/uploads/banner_seminare.jpg"
       },
     },
     footer: {

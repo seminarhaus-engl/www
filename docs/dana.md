@@ -1,6 +1,6 @@
 ---
 title: Dana-Prinzip
-header-image: /uploads/banner_dana.png
+header-image: /uploads/banner_dana.jpg
 header-title: true
 aside: false
 ---
