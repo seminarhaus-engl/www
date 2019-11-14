@@ -1,8 +1,12 @@
 <template lang="pug">
 
 .home
-  h1 {{ title }}
-  p {{ content }}
+  .main-div
+    h2 {{ title }}
+    p {{ content }}
+  .main-div
+    h2 Aktuelle Kurse
+    p hier könnte eine liste der nächsten 5 kurse kommen
 
 </template>
 
