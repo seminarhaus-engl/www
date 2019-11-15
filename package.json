@@ -12,6 +12,6 @@
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "vuepress": "^1.2.0",
-    "vuepress-theme-meteorlxy": "^1.6.0"
+    "vuepress-theme-meteorlxy": "github:akralj/vuepress-theme-meteorlxy"
   }
 }

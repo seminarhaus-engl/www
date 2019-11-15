@@ -4,6 +4,12 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "docs/.vuepress/public/uploads"
 public_folder: "/uploads" # defaults to media_folder
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+
 collections:
   - name: "doc" # Used in routes, e.g., /admin/collections/blog
     label: "Seiten" # Used in the UI
@@ -31,6 +37,7 @@ collections:
       - {label: "Honorar",           required: false, name: "honorar", widget: "string"}
       - {label: "Kursgebühr",        required: false, name: "kursgebuehr", widget: "string"}
       - {label: "Unterkunft",        required: false, name: "unterkunft", widget: "string"}
+      - {label: "Dozent", name: "performer", widget: "relation", collection: "person", searchFields: ["title"], valueField: "title", displayFields: ["title"]}
       - {label: "DozentenInnenbeschreibung", required: false, name: "dozentenbeschreibung", widget: "markdown"}
       - {label: "Website",      required: false, name: "website", widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl", widget: "string"}
@@ -42,24 +49,27 @@ collections:
     label: "Personen" # Used in the UI
     folder: "docs/personen" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Vorname Nachname", name: "name", widget: "string"}
+      - {label: "Vorname Nachname", name: "title", widget: "string"}
       - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
       - {label: "Website",      required: false, name: "website"    , widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
+      - {label: "Bild",         required: false, name: "image", widget: "image"}
       - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
   - name: "link" # Used in routes, e.g., /admin/collections/blog
     label: "Links" # Used in the UI
-    folder: "docs/personen" # The path to the folder where the documents are stored
+    folder: "docs/links" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Name", name: "title", widget: "string"}
       - {label: "Beschreibung", required: false, name: "description", widget: "markdown"}
       - {label: "Website",      required: false, name: "website"    , widget: "string"}
       - {label: "Website Url",  required: false, name: "websiteUrl" , widget: "string"}
+      - {label: "Email",        required: false, name: "email"      , widget: "string"}
       - {label: "Header Titel", required: true, name: "header-title", widget: "boolean", default: false}
+      - {label: "Bild",         required: false, name: "image", widget: "image"}
   
   - label: "Spezielle Seiten"
     name: "pages"
