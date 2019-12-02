@@ -29,16 +29,10 @@ export default({
 
 <style lang="stylus">
 
-body 
-  font-family: "Roboto", sans-serif
-
-  //background-size: cover
-  //background-repeat: no-repeat
-  //background-position: center center
-  //background-attachment: scroll
-  //background-image: url("/uploads/bg_home.jpg")
-
-.navbar-site-name
-  text-transform: uppercase
+  .layout-Home
+    .banner
+      height $bannerHeight * 3
+    .navbar-site-name
+      display: none !important
 
 </style>
