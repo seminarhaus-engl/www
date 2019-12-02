@@ -5,8 +5,8 @@
     h2 {{ title }}
     p {{ content }}
   .main-div
-    h2 Aktuelle Kurse
-    p hier könnte eine liste der nächsten 5 kurse kommen
+    h2 h2 {{ title2 }}
+    p {{ content }}
 
 </template>
 
@@ -19,10 +19,8 @@ export default({
   computed:
     title:      -> @$page.frontmatter.title
     content:    -> @$page.frontmatter.content
-
-  #created: -> console.log @$page
-
-
+    title2:      -> @$page.frontmatter.title2
+    content2:    -> @$page.frontmatter.content2
 })
 
 </script>
