@@ -1,6 +1,4 @@
 module.exports = {
-  title: 'Seminarhaus Engl',
-  description: 'your description',
   chainWebpack: (config) => {
     config.module
     .rule('coffees')
@@ -9,6 +7,9 @@ module.exports = {
       .loader('coffee-loader')
       .end()
   },
+
+  title: 'Seminarhaus Engl',
+  description: 'your description',
   theme: "meteorlxy",
   themeConfig: {
     defaultPages: {
@@ -20,9 +21,7 @@ module.exports = {
     docsDir: 'docs',
     search: false,
     searchMaxSuggestions: 10,
-    //background:{
-    //  useGeo: false
-    //},
+
     infoCard: {
       headerBackground: {
         url: "/uploads/banner_infobox.jpg"
@@ -51,15 +50,8 @@ module.exports = {
       custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
     },
   
-
     //repo: 'seminarhaus-engl/www', #creates link to github
-    /*
-    sidebar: [
-      '/',
-      '/welcome',
-      '/test'
-    ],
-    */
+
     nav: [
       {
         text: 'Seminare',
@@ -84,6 +76,3 @@ module.exports = {
     ]
   }
 }
-
-//image sizes:
-// leader board: 728 x 90 pixels
