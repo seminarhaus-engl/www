@@ -26,7 +26,7 @@ export default({
     title2:     -> @$page.frontmatter.title2
     content2:   -> if @$page.frontmatter.content then marked(@$page.frontmatter.content2) else null
     title3:     -> @$page.frontmatter.title3
-    content3:   -> if @$page.frontmatter.content then marked(@$page.frontmatter.content3) else null
+    content3:   -> if @$page.frontmatter.content3 then marked(@$page.frontmatter.content3) else null
 })
 
 </script>
