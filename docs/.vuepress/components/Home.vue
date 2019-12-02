@@ -22,11 +22,11 @@ export default({
   
   computed:
     title:      -> @$page.frontmatter.title
-    content:    -> marked(@$page.frontmatter.content)
+    content:    -> if @$page.frontmatter.content then marked(@$page.frontmatter.content) else null
     title2:     -> @$page.frontmatter.title2
-    content2:   -> marked(@$page.frontmatter.content2)
+    content2:   -> if @$page.frontmatter.content then marked(@$page.frontmatter.content2) else null
     title3:     -> @$page.frontmatter.title3
-    content3:   -> marked(@$page.frontmatter.content3)
+    content3:   -> if @$page.frontmatter.content then marked(@$page.frontmatter.content3) else null
 })
 
 </script>
