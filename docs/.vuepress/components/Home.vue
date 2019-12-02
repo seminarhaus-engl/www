@@ -1,26 +1,32 @@
 <template lang="pug">
 
 .home
-  .main-div
+  .main-div(v-if="content")
     h2 {{ title }}
-    p {{ content }}
-  .main-div
-    h2 h2 {{ title2 }}
-    p {{ content }}
+    p(v-html="content")
+  .main-div(v-if="content2")
+    h2 {{ title2 }}
+    p(v-html="content2")
+  .main-div(v-if="content3")
+    h2 {{ title3 }}
+    p(v-html="content3")
 
 </template>
 
 <script lang="coffee">
 
-export default({
-  
+marked = require("marked")
+
+export default({  
   name: 'Home'
   
   computed:
     title:      -> @$page.frontmatter.title
-    content:    -> @$page.frontmatter.content
-    title2:      -> @$page.frontmatter.title2
-    content2:    -> @$page.frontmatter.content2
+    content:    -> marked(@$page.frontmatter.content)
+    title2:     -> @$page.frontmatter.title2
+    content2:   -> marked(@$page.frontmatter.content2)
+    title3:     -> @$page.frontmatter.title3
+    content3:   -> marked(@$page.frontmatter.content3)
 })
 
 </script>

@@ -78,10 +78,12 @@ collections:
         name: "home"
         file: "docs/index.md"
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "content", widget: "markdown"}
-          - {label: "Title", name: "title2", widget: "string"}
-          - {label: "Content", name: "content2", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inhalt", name: "content", widget: "markdown"}
+          - {label: "Titel", name: "title2", widget: "string"}
+          - {label: "Inhalt", name: "content2", widget: "markdown"}
+          - {label: "Titel", name: "title3", widget: "string"}
+          - {label: "Inhalt", name: "content3", widget: "markdown"}
           - {label: "Header Bild", name: "header-image", widget: "image"}
           - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
           - {label: "Layout", name: "layout", widget: "string", required: false}
