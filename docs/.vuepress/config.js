@@ -28,13 +28,14 @@ module.exports = {
         url: "/uploads/banner_infobox.jpg"
       }
     },
+    // usefull for general infobox for site
     personalInfo: {
-      nickname: 'Barbara Wegmüller',
-      description: 'There is no way to happiness<br/>Happiness is the way.',
-      email: 'barbara.wegmüller@byom.de',
+      nickname: '',
+      description: '',
+      email: '',
       //location: 'Berlin, Deutschland',
-      organization: 'Peacemakers',
-      avatar: '/uploads/person_barbara.wegmueller.jpg',
+      organization: '',
+      avatar: '',
     },
     header:{
       showTitle: true,
