@@ -48,7 +48,6 @@ module.exports = {
       poweredByTheme: false,
       //custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | fax: 08728 412 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
       custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
-   
     },
   
 
@@ -62,10 +61,6 @@ module.exports = {
     */
     nav: [
       {
-        text: 'Über Uns',
-        link: '/ueber-uns',
-      },
-      {
         text: 'Seminare',
         link: '/seminare',
       },
@@ -76,10 +71,6 @@ module.exports = {
       {
         text: 'Dana-Prinzip',
         link: '/dana',
-      },
-      {
-        text: 'Aktuelles',
-        link: '/aktuelles',
       },
       {
         text: 'Bilder',
