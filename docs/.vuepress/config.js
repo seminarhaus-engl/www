@@ -54,6 +54,10 @@ module.exports = {
 
     nav: [
       {
+        text: 'Home-anderes-Bild',
+        link: '/index-2',
+      },
+      {
         text: 'Seminare',
         link: '/seminare',
       },

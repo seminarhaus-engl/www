@@ -46,7 +46,7 @@ BIC (SWIFT):PBNKDEFF
 
 ## Kursgebühr:
 
-Unsere Kursgebühr setzt sich aus den Reisekosten und sonstigen Unkosten der LehrerInnen, sowie einem Anteil, der unseren Verwaltungsaufwand deckt, zusammen. Die Kursgebühr enthält kein Honorar für den/die Lehrer/In. Bitte beachten Sie den Abschnitt über [Dana](/Dana-Prinzip). 
+Unsere Kursgebühr setzt sich aus den Reisekosten und sonstigen Unkosten der LehrerInnen, sowie einem Anteil, der unseren Verwaltungsaufwand deckt, zusammen. Die Kursgebühr enthält kein Honorar für den/die Lehrer/In. Bitte beachten Sie den Abschnitt über [Dana](/dana). 
 
 ## Haftungsausschluss:
 
