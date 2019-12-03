@@ -26,9 +26,9 @@
       # get frontmatter props into fm object
       fm: -> @$page.frontmatter
       
-      descriptionShort:     -> marked(@fm.descriptionShort)
-      description:          -> marked(@fm.description)
-      dozentenbeschreibung: -> marked(@fm.dozentenbeschreibung)
+      descriptionShort:     -> if @fm.descriptionShort then marked(@fm.descriptionShort) else null
+      description:          -> if @fm.description then marked(@fm.description) else null
+      dozentenbeschreibung: -> if @fm.dozentenbeschreibung then marked(@fm.dozentenbeschreibung) else null
     }
     #created: ->
   
