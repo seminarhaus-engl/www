@@ -19,10 +19,10 @@
         fieldset
           .pure-control-group
             label(for="givenName") Vorname<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.givenName", type="text", required)
+            input.pure-input-2-3(v-model.trim="form.givenName", type="text", required)
           .pure-control-group
             label(for="familyName") Nachname<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.familyName", type="text", required)
+            input.pure-input-2-3(v-model.trim="form.familyName", type="text", required)
           .pure-control-group
             label(for="gender") Geschlecht<em style="color:red">*</em>
             label.pure-radio(for="gender")
@@ -33,28 +33,28 @@
               | weiblich
           .pure-control-group
             label(for="email") Email Adresse<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.email", type="email", required)
+            input.pure-input-2-3(v-model.trim="form.email", type="email", required)
           .pure-control-group
             label(for="telephone") Telefon<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.telephone", type="tel", required)
+            input.pure-input-2-3(v-model.trim="form.telephone", type="tel", required)
           .pure-control-group
             label(for="streetAddress") Strasse<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.streetAddress", type="text", required)
+            input.pure-input-2-3(v-model.trim="form.streetAddress", type="text", required)
           .pure-control-group
             label(for="postalCode") PLZ<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.number="form.postalCode", type="number", required)
+            input.pure-input-2-3(v-model.number="form.postalCode", type="number", required)
           .pure-control-group
             label(for="addressLocality") Ort<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.addressLocality", type="text", required)
+            input.pure-input-2-3(v-model.trim="form.addressLocality", type="text", required)
           .pure-control-group
             label(for="addressCountry") Land<em style="color:red">*</em>
-            input.pure-input-1-2(v-model.trim="form.addressCountry", type="text", required)
+            input.pure-input-2-3(v-model.trim="form.addressCountry", type="text", required)
           .pure-control-group
             label(for="birthDate") Geburtsdatum
-            input.pure-input-1-2(v-model.trim="form.birthDate", type="date", placeholder="tt.mm.jjjj")
+            input.pure-input-2-3(v-model.trim="form.birthDate", type="date", placeholder="tt.mm.jjjj")
           .pure-control-group
             label(for="description") Bemerkung
-            textarea.pure-input-1-2(v-model.trim="form.description", rows="3")
+            textarea.pure-input-2-3(v-model.trim="form.description", rows="3")
           .pure-control-group
             label(for="newsletter") Newsletter<em style="color:red">*</em>
             label.pure-radio(for="newsletter")
