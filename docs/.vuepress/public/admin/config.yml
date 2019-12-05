@@ -24,7 +24,9 @@ collections:
       - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
       - {label: "Infobox", name: "aside", widget: "boolean", default: false}
       - {label: "Layout", required: true, name: "layout", widget: "string", default: "Page"}
-      - {label: "Gallery", name: "galleryImages", widget: "list", field: {label: Image, name: image, widget: image} }
+      - {label: "Gallery", name: "galleryImages", widget: "list", 
+          field: {label: Image, name: image, widget: image} 
+        }
   - name: "seminare" # Used in routes, e.g., /admin/collections/blog
     label: "Seminare" # Used in the UI
     folder: "docs/seminare" # The path to the folder where the documents are stored

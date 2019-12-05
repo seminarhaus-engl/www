@@ -33,13 +33,6 @@
           # alles was SeminarLayout hat wird angezeigt
           seminar.frontmatter.layout is "SeminarLayout"
         )
-    ###
-    computed:
-        title: -> @$page.title
-        seminare: ->
-          pattern = /^\/seminare\/.+/i # match everything apart from root /seminare
-          @$site.pages.filter((x) -> pattern.test(x.path) )
-    ###
   })
 
 </script>

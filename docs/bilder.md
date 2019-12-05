@@ -3,7 +3,7 @@ title: Gallerie
 header-image: /uploads/banner_bilder.jpg
 header-title: true
 aside: false
-layout: Page
+layout: Gallery
 galleryImages:
   - /uploads/avatar.png
   - /uploads/person_barbara.wegmueller.jpg
