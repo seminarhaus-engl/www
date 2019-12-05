@@ -51,10 +51,10 @@
             input.pure-input-1-2(v-model.trim="form.addressCountry", type="text", required)
           .pure-control-group
             label(for="birthDate") Geburtsdatum
-            input.pure-input-1-2(v-model.trim="form.birthDate", type="date", placeholder="TT.MM.JJJJ")
+            input.pure-input-1-2(v-model.trim="form.birthDate", type="date", placeholder="tt.mm.jjjj")
           .pure-control-group
             label(for="description") Bemerkung
-            textarea.pure-input-1-2(v-model.trim="form.description")
+            textarea.pure-input-1-2(v-model.trim="form.description", rows="3")
           .pure-control-group
             label(for="newsletter") Newsletter<em style="color:red">*</em>
             label.pure-radio(for="newsletter")
@@ -94,6 +94,7 @@
         description:      null
         newsletter:       null
         acceptPolicy:     null
+
 
     methods:
       processForm: ->
