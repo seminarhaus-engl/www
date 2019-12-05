@@ -3,6 +3,7 @@ title: Kontakt/Bankverbindung/Impressum/Datenschutz
 header-image: /uploads/banner_ueber-uns.png
 header-title: true
 aside: false
+layout: Page
 ---
 SEMINARHAUS ENGL e.V.  
  Verein für buddhistisches Leben und Handeln Engl 1  

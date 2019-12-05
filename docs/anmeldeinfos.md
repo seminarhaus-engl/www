@@ -3,6 +3,7 @@ title: Anmeldeinfo
 header-image: /uploads/banner_anmeldeinfos.jpg
 header-title: true
 aside: false
+layout: Page
 ---
 ## Kursbeginn/Kursende:
 
