@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
 
-// maybe usefull
-//@import url("https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css")
-
 $bannerHeight ?= 12rem
 
 // overwrite default styles here
@@ -11,3 +8,35 @@ body
   
   .navbar-site-name
     color: #2c3e50 !important
+
+
+// import pure and add some styles to it
+@import url("https://unpkg.com/purecss@1.0.1/build/pure-min.css")
+
+.pure-form-aligned .pure-control-group .pure-radio
+    text-align: left
+
+.pure-button-success,
+.pure-button-error,
+.pure-button-warning,
+.pure-button-secondary {
+    color: white;
+    border-radius: 1rem;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pure-button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.pure-button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.pure-button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.pure-button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
