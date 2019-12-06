@@ -19,15 +19,20 @@
 
 <script lang="coffee">
 
+  marked = require("marked")
+
   export default({
     name: 'SeminareLayout'
 
     computed:
-        title: -> @$page.title
-        seminare: ->
-          pattern = /^\/seminare\/.+/i # match everything apart from root /seminare
-          @$site.pages.filter((x) -> pattern.test(x.path) )
-
+      title: -> @$page.title
+      seminare: ->
+        @$site.pages.filter((seminar) -> 
+          if seminar.frontmatter?.descriptionShort
+            seminar.frontmatter.descriptionShort =  marked(seminar.frontmatter.descriptionShort)
+          # alles was SeminarLayout hat wird angezeigt
+          seminar.frontmatter.layout is "SeminarLayout"
+        )
   })
 
 </script>

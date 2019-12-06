@@ -3,6 +3,7 @@ title: Dana-Prinzip
 header-image: /uploads/banner_dana.jpg
 header-title: true
 aside: false
+layout: Page
 ---
 Dana, was soviel heißt wie im Geiste der Großzügigkeit und Solidarität, ist ein wesentlicher Bestandteil buddhistischer Geistes- und Herzensschulung.
 

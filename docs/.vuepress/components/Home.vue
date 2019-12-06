@@ -1,44 +1,42 @@
 <template lang="pug">
 
 .home
-  .main-div
+  .main-div(v-if="content")
     h2 {{ title }}
-    p {{ content }}
-  .main-div
-    h2 Aktuelle Kurse
-    p hier könnte eine liste der nächsten 5 kurse kommen
+    p(v-html="content")
+  .main-div(v-if="content2")
+    h2 {{ title2 }}
+    p(v-html="content2")
+  .main-div(v-if="content3")
+    h2 {{ title3 }}
+    p(v-html="content3")
 
 </template>
 
 <script lang="coffee">
 
-export default({
-  
+marked = require("marked")
+
+export default({  
   name: 'Home'
   
   computed:
     title:      -> @$page.frontmatter.title
-    content:    -> @$page.frontmatter.content
-
-  #created: -> console.log @$page
-
-
+    content:    -> if @$page.frontmatter.content then marked(@$page.frontmatter.content) else null
+    title2:     -> @$page.frontmatter.title2
+    content2:   -> if @$page.frontmatter.content then marked(@$page.frontmatter.content2) else null
+    title3:     -> @$page.frontmatter.title3
+    content3:   -> if @$page.frontmatter.content3 then marked(@$page.frontmatter.content3) else null
 })
 
 </script>
 
 <style lang="stylus">
 
-body 
-  font-family: "Roboto", sans-serif
-
-  //background-size: cover
-  //background-repeat: no-repeat
-  //background-position: center center
-  //background-attachment: scroll
-  //background-image: url("/uploads/bg_home.jpg")
-
-.navbar-site-name
-  text-transform: uppercase
+  .layout-Home
+    .banner
+      height $bannerHeight * 3
+    .navbar-site-name
+      display: none !important
 
 </style>

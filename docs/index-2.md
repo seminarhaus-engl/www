@@ -23,7 +23,7 @@ content: >-
   Feldern.
 title2: Aktuelles
 content2: "**Mitgliedschaft im Seminarhaus Engl**\n\nWir sind auf die Unterstützung von Mitgliedern angewiesen, damit wir unsere Zielsetzung verfolgen können. Wir würden uns freuen, wenn auch Du Dich entschließen könntest uns ideell und finanziell zu unterstützen. Mitglied kannst Du werden mit einem Mindestbeitrag von 24 € im Quartal. Ein Beitrittsformular bekommst Du gerne von uns zugeschickt. Wir sind als \"Seminarhaus Engl, Verein für buddhistisches Leben und Handeln\" gemeinnützig anerkannt und finanzieren unsere Arbeit durch Überschüsse aus den Pensionspreisen, aus Spenden und Mitgliedsbeiträgen.\n\n**Arbeitsretreat**\n\nWir bieten Interessierten, die das Seminarhaus Engl bereits kennen, die Möglichkeit, im Rahmen eines Arbeitsretreats ins Engl zu kommen, uns zu helfen und Zeit für die eigene Praxis zu finden.\n\n**Mithilfe bei Kursvorbereitung**\n\nWir bieten Gästen, die das Haus schon kennen, die Möglichkeit zwei Tage vorher zu kommen und mit zu helfen (Hausputz, Rasenmähen) gegen freie Unterkunft und Verpflegung\_ für die zwei Tage.\n\n**Team**\n\nIm Augenblick arbeiten im Seminarhaus Engl\_ Christine, Jürgen, Moni, Denis und Piet."
-header-image: /uploads/banner_home.jpg
+header-image: /uploads/banner_home2.jpg
 header-title: false
 layout: Home
 aside: false

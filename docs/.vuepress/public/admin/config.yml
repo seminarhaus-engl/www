@@ -23,6 +23,10 @@ collections:
       - {label: "Header Bild", name: "header-image", widget: "image"}
       - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
       - {label: "Infobox", name: "aside", widget: "boolean", default: false}
+      - {label: "Layout", required: true, name: "layout", widget: "string", default: "Page"}
+      - {label: "Gallery", name: "galleryImages", widget: "list", 
+          field: {label: Image, name: image, widget: image} 
+        }
   - name: "seminare" # Used in routes, e.g., /admin/collections/blog
     label: "Seminare" # Used in the UI
     folder: "docs/seminare" # The path to the folder where the documents are stored
@@ -78,8 +82,12 @@ collections:
         name: "home"
         file: "docs/index.md"
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Titel", name: "title", widget: "string"}
+          - {label: "Inhalt", name: "content", widget: "markdown"}
+          - {label: "Titel", name: "title2", widget: "string"}
+          - {label: "Inhalt", name: "content2", widget: "markdown"}
+          - {label: "Titel", name: "title3", widget: "string"}
+          - {label: "Inhalt", name: "content3", widget: "markdown"}
           - {label: "Header Bild", name: "header-image", widget: "image"}
           - {label: "Header Titel", name: "header-title", widget: "boolean", default: true}
           - {label: "Layout", name: "layout", widget: "string", required: false}

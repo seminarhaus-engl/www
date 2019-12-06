@@ -1,6 +1,4 @@
 module.exports = {
-  title: 'Seminarhaus Engl',
-  description: 'your description',
   chainWebpack: (config) => {
     config.module
     .rule('coffees')
@@ -9,6 +7,9 @@ module.exports = {
       .loader('coffee-loader')
       .end()
   },
+
+  title: 'Seminarhaus Engl',
+  description: 'your description',
   theme: "meteorlxy",
   themeConfig: {
     defaultPages: {
@@ -20,21 +21,20 @@ module.exports = {
     docsDir: 'docs',
     search: false,
     searchMaxSuggestions: 10,
-    //background:{
-    //  useGeo: false
-    //},
+
     infoCard: {
       headerBackground: {
         url: "/uploads/banner_infobox.jpg"
       }
     },
+    // usefull for general infobox for site
     personalInfo: {
-      nickname: 'Barbara Wegmüller',
-      description: 'There is no way to happiness<br/>Happiness is the way.',
-      email: 'barbara.wegmüller@byom.de',
+      nickname: '',
+      description: '',
+      email: '',
       //location: 'Berlin, Deutschland',
-      organization: 'Peacemakers',
-      avatar: '/uploads/person_barbara.wegmueller.jpg',
+      organization: '',
+      avatar: '',
     },
     header:{
       showTitle: true,
@@ -47,23 +47,15 @@ module.exports = {
       poweredBy: false,
       poweredByTheme: false,
       //custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | fax: 08728 412 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
-      custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
-   
+      custom: '<ul><li>info(at)seminarhaus-engl.de</li><li>|</li><li> Engl 1</li><li>|</li><li>84339 Unterdietfurt</li> <li>|</li><li>fon: 08728 616</li><li>|</li><li><a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a></li></ul>',
     },
   
-
     //repo: 'seminarhaus-engl/www', #creates link to github
-    /*
-    sidebar: [
-      '/',
-      '/welcome',
-      '/test'
-    ],
-    */
+
     nav: [
       {
-        text: 'Über Uns',
-        link: '/ueber-uns',
+        text: 'Home-anderes-Bild',
+        link: '/index-2',
       },
       {
         text: 'Seminare',
@@ -78,10 +70,6 @@ module.exports = {
         link: '/dana',
       },
       {
-        text: 'Aktuelles',
-        link: '/aktuelles',
-      },
-      {
         text: 'Bilder',
         link: '/bilder',
       },
@@ -92,6 +80,3 @@ module.exports = {
     ]
   }
 }
-
-//image sizes:
-// leader board: 728 x 90 pixels

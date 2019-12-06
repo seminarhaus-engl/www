@@ -3,6 +3,7 @@ title: Kontakt/Bankverbindung/Impressum/Datenschutz
 header-image: /uploads/banner_ueber-uns.png
 header-title: true
 aside: false
+layout: Page
 ---
 SEMINARHAUS ENGL e.V.  
  Verein für buddhistisches Leben und Handeln Engl 1  
@@ -51,7 +52,7 @@ Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollst
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 Seminarhaus Engl  
- Petrus Essens und Denis Bicanic ( Vorstand)  
+ Petrus Essens und Denis Bićanić (Vorstand)  
  Engl 1  
  84339 Unterdietfurt
 

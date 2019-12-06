@@ -3,6 +3,7 @@ title: Anmeldeinfo
 header-image: /uploads/banner_anmeldeinfos.jpg
 header-title: true
 aside: false
+layout: Page
 ---
 ## Kursbeginn/Kursende:
 
@@ -46,7 +47,7 @@ BIC (SWIFT):PBNKDEFF
 
 ## Kursgebühr:
 
-Unsere Kursgebühr setzt sich aus den Reisekosten und sonstigen Unkosten der LehrerInnen, sowie einem Anteil, der unseren Verwaltungsaufwand deckt, zusammen. Die Kursgebühr enthält kein Honorar für den/die Lehrer/In. Bitte beachten Sie den Abschnitt über [Dana](/Dana-Prinzip). 
+Unsere Kursgebühr setzt sich aus den Reisekosten und sonstigen Unkosten der LehrerInnen, sowie einem Anteil, der unseren Verwaltungsaufwand deckt, zusammen. Die Kursgebühr enthält kein Honorar für den/die Lehrer/In. Bitte beachten Sie den Abschnitt über [Dana](/dana). 
 
 ## Haftungsausschluss:
 
@@ -78,6 +79,4 @@ Wir danken für das Verständnis.
 ### **Mit dem Auto** 
 <a href="/uploads/Anfahrt_Seminarhaus_Engl.pdf" target="_blank"><img src="/assets/img/button_pdf.png" alt="" width="24" height="24" align="bottom">Anfahrt ausdrucken</a>
 
-<iframe width="700" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.de/maps?f=q&hl=de&geocode=&time=&date=&ttype=&q=seminarhaus+engl,+unterdietfurt&ie=UTF8&om=1&cid=48368279,12666335,7242867742021660692&s=AARTsJpG_V3wNYiISKVmVhRxFio_xxZH8Q&ll=48.614754,12.801819&spn=1.089495,1.922607&z=9&iwloc=A&output=embed"></iframe>  
-
-<small>[Größere Kartenansicht](https://maps.google.de/maps?f=q&hl=de&geocode=&time=&date=&ttype=&q=seminarhaus+engl,+unterdietfurt&ie=UTF8&om=1&cid=48368279,12666335,7242867742021660692&ll=48.614754,12.801819&spn=1.089495,1.922607&z=9&iwloc=A&source=embed)</small>
+<iframe width="330" height="330" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.de/maps?f=q&hl=de&geocode=&time=&date=&ttype=&q=seminarhaus+engl,+unterdietfurt&ie=UTF8&om=1&cid=48368279,12666335,7242867742021660692&s=AARTsJpG_V3wNYiISKVmVhRxFio_xxZH8Q&ll=48.614754,12.801819&spn=1.089495,1.922607&z=9&iwloc=A&output=embed"></iframe>  
