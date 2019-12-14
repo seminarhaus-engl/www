@@ -1,6 +1,6 @@
 ---
 title: Anmeldeinfo
-header-image: /uploads/01-seminarhaus.jpg
+header-image: /uploads/auswahl-piet2.jpg
 header-title: true
 aside: false
 layout: Page
