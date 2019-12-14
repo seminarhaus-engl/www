@@ -3,22 +3,10 @@
 <template lang="pug">
 
   .main-div
-    //.no-seminare(v-if='listseminare.length === 0', key='no-seminare')
-      | {{ $themeConfig.lang.noRelatedseminare }}
-
-    .pure-g
-      .photo-box.pure-u-1-3.pure-u-lg-1-3(v-for='image in galleryImages')
-        a(href='http://www.dillonmcintosh.tumblr.com/')
-          img(:src="image")
-      //.pure-u-1-3.pure-u-lg-1-6(v-for='image in galleryImages')
-        //a(href='http://www.dillonmcintosh.tumblr.com/')
-        img.pure-img(:src="image")
-        //aside.photo-box-caption
-          span
-            | by 
-            a(href='http://www.dillonmcintosh.tumblr.com/') Dillon McIntosh
-            //img(:src="image")
-          
+    .flexbox
+      .item(v-for='image in galleryImages')
+        img(:src='image')
+        //p.title 1st item
 
 </template>
 
@@ -34,86 +22,74 @@
       galleryImages: ->
         console.log @$page.frontmatter.galleryImages
         @$page.frontmatter.galleryImages
+
+    created: -> console.log "ready"
+
   })
 
 </script>
 
-<style>
+<style lang="stylus" scoped>
 
+// Flexbox wrapper
+.flexbox{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	height: 100vw;
+  
+  &:hover{
+    img {
+      opacity:0.28;
+    }
+  }
 
-.photo-box, .text-box {
-    overflow: hidden;
-    position: relative;
-    height: 250px;
-    text-align: center;
+  // Each flex item
+  .item{
+    position:relative;
+    width: 33.33%;  // 3 column
+    img{
+      width: 100%;
+      display: block;
+      transition:all .8s;
+    }
+    .title{
+      position:absolute;
+      top:48%;
+      left:0;
+      width:100%;
+      padding:0 3%;
+      font-size:30px;
+      text-shadow:0 0 8px rgba(0,0,0,0.42);
+    }
+    &:hover{
+      img{
+        opacity:1;
+      }
+    }
+  }
 }
 
-.photo-box-thin {
-    height: 120px;
+// Mediaqueries
+@media ( max-width : 860px ){
+  // set to 2 column
+  .flexbox{
+    height:220vw;
+    .item{
+      width:50%;
+    }
+  }
 }
-    .photo-box img {
-        max-width: 100%;
-        height: auto;
-        min-height: 250px;
+@media ( max-width : 667px ){
+  // set to 1 column
+  .flexbox{
+    height:auto;
+    .item{
+      width:100%;
     }
-
-    .photo-box aside {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 1em 0.5em;
-        color: white;
-        width: 100%;
-        font-size: 80%;
-        text-align: right;
-        background: -moz-linear-gradient(top,  rgba(16,27,30,0) 0%, rgba(12,2,2,1) 90%); /* FF3.6+ */
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(16,27,30,0)), color-stop(90%,rgba(12,2,2,1))); /* Chrome,Safari4+ */
-        background: -webkit-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* Chrome10+,Safari5.1+ */
-        background: -o-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* Opera 11.10+ */
-        background: -ms-linear-gradient(top,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* IE10+ */
-        background: linear-gradient(to bottom,  rgba(16,27,30,0) 0%,rgba(12,2,2,1) 90%); /* W3C */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00101b1e', endColorstr='#0c0202',GradientType=0 ); /* IE6-9 */
-
-    }
-
-    .photo-box aside span {
-        color: #aaa;
-    }
-
-        .photo-box aside span a {
-            color: #ccc;
-            text-decoration: none;
-        }
-
-.text-box {
-    background: rgb(49, 49, 49); /* bluish grey */
-    color: rgb(255, 190, 94); /* steel blue */
+  }
 }
-
-    .text-box-head {
-        color: #fff;
-        padding-bottom: 0.2em;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        font-size: 24px;
-    }
-
-    .text-box-subhead {
-        font-weight: normal;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-    }
-
-@media (min-width: 30em) {
-    .photo-box, .text-box {
-        text-align: left;
-    }
-
-    .photo-box-thin {
-        height: 250px;
-    }
-}
-
-
 </style>
