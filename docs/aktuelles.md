@@ -1,6 +1,6 @@
 ---
 title: Aktuelles
-header-image: /uploads/banner_aktuelles.jpg
+header-image: /uploads/10-blick-auf-den-teich-mit-gebetsfahnen-1-.jpg
 header-title: true
 aside: false
 layout: Page
