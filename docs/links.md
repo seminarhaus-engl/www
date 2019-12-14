@@ -15,8 +15,8 @@ Unten findest Du entsprechende links für den deutschsprachigen Raum:
 
 [Buddha Haus (Allgäu)](https://www.buddha-haus.de/)
 
-[Meditationszentrum Beatenberg](www.karuna.ch)
+[Meditationszentrum Beatenberg](https://karuna.ch/)
 
-[Buddhistisches Zentrum Scheibbs](www.bzs.at)
+[Buddhistisches Zentrum Scheibbs](http://www.bzs.at/)
 
 [Deutsche Buddhistische Union](https://www.buddhismus-deutschland.de/)
