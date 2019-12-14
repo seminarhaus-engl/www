@@ -20,4 +20,4 @@ galleryImages:
   - /uploads/gallerie_13.jpg
   - /uploads/gallerie_14.jpg
 ---
-Hier unsere Bilder.
+Eindrücke aus Engl...
