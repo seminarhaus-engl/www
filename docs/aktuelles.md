@@ -17,6 +17,4 @@ Wir bieten Interessierten, die das Seminarhaus Engl bereits kennen, die Möglich
 
 Wir bieten Gästen, die das Haus schon kennen, die Möglichkeit zwei Tage vorher zu kommen und mit zu helfen (Hausputz, Rasenmähen) gegen freie Unterkunft und Verpflegung  für die zwei Tage.
 
-**Team**
-
-Im Augenblick arbeiten im Seminarhaus Engl  Christine, Marlies, Jürgen, Moni, Denis und Piet.
+****
