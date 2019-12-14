@@ -54,12 +54,12 @@ module.exports = {
 
     nav: [
       {
-        text: 'Aktuelles',
-        link: '/aktuelles',
-      },
-      {
         text: 'Seminare',
         link: '/seminare',
+      },
+      {
+        text: 'Aktuelles',
+        link: '/aktuelles',
       },
       {
         text: 'Anmeldeinfos',

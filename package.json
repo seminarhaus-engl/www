@@ -1,4 +1,6 @@
 {
+  "name": "seminarhaus-engl.de",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
