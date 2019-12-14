@@ -1,6 +1,6 @@
 ---
 title: Anmeldeinfo
-header-image: /uploads/banner_anmeldeinfos.jpg
+header-image: /uploads/01-seminarhaus.jpg
 header-title: true
 aside: false
 layout: Page
