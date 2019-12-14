@@ -7,9 +7,12 @@
       | {{ $themeConfig.lang.noRelatedseminare }}
 
     .pure-g
-      .photo-box.pure-u-1.pure-u-md-1-2.pure-u-lg-1-3(v-for='image in galleryImages')
+      .photo-box.pure-u-1-3.pure-u-lg-1-3(v-for='image in galleryImages')
         a(href='http://www.dillonmcintosh.tumblr.com/')
           img(:src="image")
+      //.pure-u-1-3.pure-u-lg-1-6(v-for='image in galleryImages')
+        //a(href='http://www.dillonmcintosh.tumblr.com/')
+        img.pure-img(:src="image")
         //aside.photo-box-caption
           span
             | by 
