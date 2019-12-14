@@ -11,12 +11,12 @@ Unten findest Du entsprechende links für den deutschsprachigen Raum:
 
 [Haus der Stille](https://www.hausderstille.org/)
 
-Waldhaus am Laacher See
+[Waldhaus am Laacher See](http://buddhismus-im-westen.de/)
 
-Buddha Haus
+[Buddha Haus (Allgäu)](https://www.buddha-haus.de/)
 
-Meditationszentrum Beatenberg
+[Meditationszentrum Beatenberg](www.karuna.ch)
 
-Buddhistisches Zentrum Scheibbs
+[Buddhistisches Zentrum Scheibbs](www.bzs.at)
 
-Deutsche Buddhistische Union
+[Deutsche Buddhistische Union](https://www.buddhismus-deutschland.de/)
