@@ -35,7 +35,7 @@ export default({
 
   .layout-Home
     .banner
-      height $bannerHeight * 3
+      height: 36rem
     .navbar-site-name
       display: none !important
 
