@@ -70,9 +70,8 @@
             label.pure-checkbox(for="acceptPolicy")
               input#cb(v-model="form.acceptPolicy", type="checkbox", required)
               | Ich habe die Anmeldeinfo gelesen und akzeptiere die Veranstaltungsbedingungen
+              //p: #[span this is the start of the para] #[a(href="http://example.com") a link] #[span and this is the rest of the paragraph]
             button.pure-button.pure-button-success(type="submit") Anmeldung abschicken
-
-
 
 </template>
 

@@ -2,7 +2,7 @@
 
 <template lang="pug">
 
-  .main-div
+  .main-div.content
     .flexbox
       .item(v-for='image in galleryImages')
         img(:src='image')

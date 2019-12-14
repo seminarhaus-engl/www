@@ -52,20 +52,6 @@ module.exports = {
   
     //repo: 'seminarhaus-engl/www', #creates link to github
 
-    plugins: [
-      [
-        'vuepress-plugin-zooming',
-        {
-          selector: '.pure-g img.pure-img',
-          delay: 1000,
-          options: {
-            bgColor: 'black',
-            zIndex: 10000,
-          },
-        },
-      ],
-    ],
-
     nav: [
       {
         text: 'Aktuelles',
