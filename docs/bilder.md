@@ -1,6 +1,6 @@
 ---
 title: Gallerie
-header-image: /uploads/auswahl-moni1.jpg
+header-image: /uploads/p1040192.jpg
 header-title: true
 aside: false
 layout: Gallery
@@ -19,7 +19,5 @@ galleryImages:
   - /uploads/gallerie_12.jpg
   - /uploads/gallerie_13.jpg
   - /uploads/gallerie_14.jpg
-
-
 ---
 Hier unsere Bilder.
