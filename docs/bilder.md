@@ -1,5 +1,5 @@
 ---
-title: Gallerie
+title: Eindrücke aus dem Engl...
 header-image: /uploads/p1040192.jpg
 header-title: true
 aside: false

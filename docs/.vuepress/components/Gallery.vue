@@ -3,6 +3,8 @@
 <template lang="pug">
 
   .main-div.content
+    //Content
+
     .flexbox
       .item(v-for='image in galleryImages')
         img(:src='image')
@@ -18,12 +20,11 @@
     name: 'GalleryLayout'
 
     computed:
-      title: -> @$page.title
-      galleryImages: ->
-        console.log @$page.frontmatter.galleryImages
-        @$page.frontmatter.galleryImages
+      #title:      -> @$page.frontmatter.title
+      #content:    -> if @$page.frontmatter.content then marked(@$page.frontmatter.content) else null
+      galleryImages: -> @$page.frontmatter.galleryImages
 
-    created: -> console.log "ready"
+    created: -> console.log @$page
 
   })
 
