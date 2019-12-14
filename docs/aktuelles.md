@@ -1,6 +1,6 @@
 ---
 title: Aktuelles
-header-image: /uploads/denis_5.jpg
+header-image: /uploads/dharmarad.png
 header-title: true
 aside: false
 layout: Page
