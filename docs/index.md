@@ -5,7 +5,7 @@ title2: ''
 content2: '****'
 title3: ''
 content3: ''
-header-image: /uploads/banner_home2.jpg
+header-image: /uploads/banner_home.jpg
 header-title: false
 layout: Home
 aside: false
