@@ -4,6 +4,7 @@ header-image: /uploads/banner_aktuelles.jpg
 header-title: false
 aside: false
 layout: Page
+galleryImages: []
 ---
 ### **Datenschutzerklärung**
 
