@@ -9,7 +9,7 @@ Wir sind froh, dass wir unsere Inspiration und unsere Absicht die Verwurzelung d
 
 Unten findest Du entsprechende links für den deutschsprachigen Raum:
 
-Haus der Stille
+[Haus der Stille](https://www.hausderstille.org/)
 
 Waldhaus am Laacher See
 
