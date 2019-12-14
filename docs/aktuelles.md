@@ -1,6 +1,6 @@
 ---
 title: Aktuelles
-header-image: /uploads/09-sommerblumenbeet-vom-hauphaus.jpg
+header-image: /uploads/anmeldeinfo.jpg
 header-title: true
 aside: false
 layout: Page
