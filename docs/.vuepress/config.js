@@ -54,8 +54,8 @@ module.exports = {
 
     nav: [
       {
-        text: 'Home-anderes-Bild',
-        link: '/index-2',
+        text: 'Aktuelles',
+        link: '/aktuelles',
       },
       {
         text: 'Seminare',
