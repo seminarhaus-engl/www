@@ -9,14 +9,14 @@ Wir sind froh, dass wir unsere Inspiration und unsere Absicht die Verwurzelung d
 
 Unten findest Du entsprechende links für den deutschsprachigen Raum:
 
-Haus der Stille
+[Haus der Stille](https://www.hausderstille.org/)
 
-Waldhaus am Laacher See
+[Waldhaus am Laacher See](http://buddhismus-im-westen.de/)
 
-Buddha Haus
+[Buddha Haus (Allgäu)](https://www.buddha-haus.de/)
 
-Meditationszentrum Beatenberg
+[Meditationszentrum Beatenberg](https://karuna.ch/)
 
-Buddhistisches Zentrum Scheibbs
+[Buddhistisches Zentrum Scheibbs](http://www.bzs.at/)
 
-Deutsche Buddhistische Union
+[Deutsche Buddhistische Union](https://www.buddhismus-deutschland.de/)
