@@ -47,7 +47,7 @@ module.exports = {
       poweredBy: false,
       poweredByTheme: false,
       //custom: 'info(at)seminarhaus-engl.de | Engl 1 | 84339 Unterdietfurt | fon: 08728 616 | fax: 08728 412 | <a href="/kontakt.html" target="_blank">Kontakt/Bankverbindung/Impressum/Datenschutz</a>',
-      custom: '<ul><li>info(at)seminarhaus-engl.de</li><li>|</li><li> Engl 1</li><li>|</li><li>84339 Unterdietfurt</li> <li>|</li><li>fon: 08728 616</li><li>|</li><li><a href="/kontakt.html">Kontakt/Bankverbindung/Impressum/Datenschutz</a></li></ul>',
+      custom: '<ul><li>info(at)seminarhaus-engl.de</li><li>|</li><li> Engl 1</li><li>|</li><li>84339 Unterdietfurt</li> <li>|</li><li>fon: 08728 616</li><li>|</li><li><a href="/kontakt.html">Kontakt/Bankverbindung/Impressum</a></li><li>|</li><li><a href="/datenschutz.html">Datenschutz</a></li></ul>',
     },
   
     //repo: 'seminarhaus-engl/www', #creates link to github

@@ -31,12 +31,15 @@
             label.pure-radio(for="gender")
               input(v-model="form.gender", type="radio", name="genderRadio", value="female", required)
               | weiblich
+            label.pure-radio(for="gender")
+              input(v-model="form.gender", type="radio", name="genderRadio", value="transgender", required)
+              | transgender
           .pure-control-group
             label(for="email") Email Adresse<em style="color:red">*</em>
             input.pure-input-2-3(v-model.trim="form.email", type="email", required)
           .pure-control-group
             label(for="telephone") Telefon<em style="color:red">*</em>
-            input.pure-input-2-3(v-model.trim="form.telephone", type="tel", required)
+            input.pure-input-2-3(v-model.trim="form.telephone", type="tel", required, placeholder="Bitte die Nummer, unter der Sie am besten zu erreichen sind.")
           .pure-control-group
             label(for="streetAddress") Strasse<em style="color:red">*</em>
             input.pure-input-2-3(v-model.trim="form.streetAddress", type="text", required)
