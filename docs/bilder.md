@@ -1,6 +1,6 @@
 ---
 title: Gallerie
-header-image: /uploads/auswahl-moni3.jpg
+header-image: /uploads/p1040167.jpg
 header-title: true
 aside: false
 layout: Gallery
