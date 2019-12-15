@@ -2,7 +2,8 @@
 
 <template lang="pug">
 
-  .main-div.content
+  //.main-div.content
+  .content
     //Content
 
     .flexbox
@@ -21,7 +22,6 @@
 
     computed:
       #title:      -> @$page.frontmatter.title
-      #content:    -> if @$page.frontmatter.content then marked(@$page.frontmatter.content) else null
       galleryImages: -> @$page.frontmatter.galleryImages
 
     created: -> console.log @$page
