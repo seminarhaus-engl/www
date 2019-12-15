@@ -5,6 +5,8 @@ header-title: true
 aside: false
 layout: Page
 ---
+Zum Anmeldeformular kommen Sie durch das Anklicken vom konkreten Seminar in dem Fenster "Seminare".
+
 ## Kursbeginn/Kursende:
 
 Am Anreisetag sind wir ab **16.00 Uhr** für euch da.
@@ -13,10 +15,10 @@ Wir können ein Taxi organisieren zu den Zügen mit Ankunft 16.08 Uhr, 17.08 Uhr
 Bitte meldet euch, wenn ihr vom Bahnhof abgeholt werden möchtet, möglichst ein paar Tage vorher.
 
 Die Kurse enden am letzten Kurstag mit dem Mittagessen um ca. **12.30. Uhr**.
-**Zu dem Zug um 13.45 Uhr** (Eggenfelden) **organisieren wir ein Taxi.**  
+**Zu dem Zug um 13.45 Uhr** (Eggenfelden) **organisieren wir ein Taxi.**\
 Die Sesshins mit Paul Shepherd enden nach dem Frühstück. Da organisieren wir ein Taxi **für den Zug um 9.45 Uhr.**
 
-** ** 
+- - -
 
 ## Bitte mitbringen:
 
@@ -71,12 +73,12 @@ Wir danken für das Verständnis.
 
 ### **Mit dem Zug nach Eggenfelden Bahnhof (nicht Eggenfelden-Mitte:)**
 
-*   von München über Mühldorf/Obb. nach Eggenfelden; 
-*   von Landshut über Neumarkt St. Veit nach Eggenfelden;
-*   von Passau nach Eggenfelden; 
+* von München über Mühldorf/Obb. nach Eggenfelden; 
+* von Landshut über Neumarkt St. Veit nach Eggenfelden;
+* von Passau nach Eggenfelden; 
 
+### **Mit dem Auto**
 
-### **Mit dem Auto** 
 <a href="/uploads/Anfahrt_Seminarhaus_Engl.pdf" target="_blank"><img src="/assets/img/button_pdf.png" alt="" width="24" height="24" align="bottom">Anfahrt ausdrucken</a>
 
-<iframe width="330" height="330" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.de/maps?f=q&hl=de&geocode=&time=&date=&ttype=&q=seminarhaus+engl,+unterdietfurt&ie=UTF8&om=1&cid=48368279,12666335,7242867742021660692&s=AARTsJpG_V3wNYiISKVmVhRxFio_xxZH8Q&ll=48.614754,12.801819&spn=1.089495,1.922607&z=9&iwloc=A&output=embed"></iframe>  
+<iframe width="330" height="330" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.de/maps?f=q&hl=de&geocode=&time=&date=&ttype=&q=seminarhaus+engl,+unterdietfurt&ie=UTF8&om=1&cid=48368279,12666335,7242867742021660692&s=AARTsJpG_V3wNYiISKVmVhRxFio_xxZH8Q&ll=48.614754,12.801819&spn=1.089495,1.922607&z=9&iwloc=A&output=embed"></iframe>
