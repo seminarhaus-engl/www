@@ -1,6 +1,6 @@
 ---
 title: Anmeldeinfo
-header-image: /uploads/auswahl-piet2.jpg
+header-image: /uploads/gallerie_07.jpg
 header-title: true
 aside: false
 layout: Page
